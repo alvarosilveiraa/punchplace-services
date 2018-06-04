@@ -1,0 +1,26 @@
+{
+  "name": "punchplace",
+  "version": "1.0.0",
+  "description": "One Punch Man Game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "egg-scripts start --daemon --title=punchplace",
+    "stop": "egg-scripts stop --title=punchplace",
+    "dev": "egg-bin dev"
+  },
+  "author": "Alvaro Silveira <alvarosilveiraa@gmail.com>",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.8.1",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.6.0",
+    "egg-validate": "^1.0.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.7.0"
+  }
+}
